@@ -1,407 +1,191 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Fanjia Yan</title>
 
-  <title>Fanjia Yan</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <meta name="author" content="Fanjia Yan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
 
-  <!-- Favicons -->
-  <link href="assets/img/shenzhen.webp" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Fanjia Yan
+                </p>
+                <p>I'm a M.S. student at <a href="https://eecs.berkeley.edu">Berkeley EECS</a>, where I focus on Language Model Agents and <a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html"> Tool usage </a>.
+                </p>
+                <p>
+                   I did my undergraduate degree at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>. I have previously or currently interned at <a href="https://www.nvidia.com/en-us/self-driving-cars/in-vehicle-computing/">Nvidia</a>, Amazon, and <a href="https://runllm.com/">Aqueduct</a>. 
+                </p>
+                <p style="text-align:center">
+                  <a href="fanjiayan@berkeley,edu">Email</a> &nbsp;/&nbsp;
+                  <a href="metadata/Fanjia_Resume.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=-L3PKoQAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://twitter.com/fanjia_yan">Twitter</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/Fanjia-Yan">Github</a>
+                </p>
+              </td>
+              <td style="width:40%;max-width:40%">
+                <a href="images/5J6A6662.jpg"><img style="width:80%;max-width:100%" alt="profile photo" src="images/5J6A6662.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm generally interested in interested in LLM agentic framework and Function calling/ Tool usage. Some of my works are listed below:
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.7.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Fanjia Yan</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/fanjia_yan" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/fanjia-yan-7072131b3/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <tr onmouseout="bfcl_stop()" onmouseover="bfcl_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='bfcl.gif'><video  width=100% muted autoplay loop>
+          <source src="images/bfcl.gif" type="gif">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/bfcl.png' width=100%>
         </div>
-      </div>
+        <script type="text/javascript">
+          function bfcl_start() {
+            document.getElementById('bfcl.gif').style.opacity = "1";
+          }
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
+          function bfcl_stop() {
+            document.getElementById('bfcl.gif').style.opacity = "0";
+          }
+          bfcl_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html">
+          <span class="papertitle">Berkeley Function Calling Leaderboard
+</span>
+        </a>
+        <br>
+				<strong>Fanjia Yan</strong>*,
+				<a href="https://huanzhimao.com/">Huanzhi Mao</a>*,
+				<a href="https://charliejcj.github.io/">Charlie Cheng-Jie Ji</a>*,
+				<a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>,
+				<a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph E. Gonzalez</a>,
+				<a href="https://tianjunz.github.io/">Tianjun Zhang</a>,
+				<a href="https://shishirpatil.github.io/">Shishir G. Patil</a>
+        <br>
+        <a href="https://creiser.github.io/binary_opacity_grid/">project page</a>
+        /
+        <a href="https://github.com/ShishirPatil/gorilla">github page</a>
+        <p></p>
+        <p>
+          The first comprehensive evaluation on the LLM's ability to call functions and tools
+        </p>
+      </td>
+    </tr>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Fanjia Yan</h1>
-      <p>I'm <span class="typed" data-typed-items="Dream Chaser, Engineer, Researcher"></span></p>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
+    <tr onmouseout="lcb_stop()" onmouseover="lcb_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='lcb_image'><video  width=100% muted autoplay loop>
+          <img src="images/bfcl.gif" type="gif">
+          Your browser does not support the video tag.
+          </div>
+          <img src='images/lcb.png' width=100%>
         </div>
+        <script type="text/javascript">
+          function lcb_start() {
+            document.getElementById('lcb_image').style.opacity = "1";
+          }
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/Photo.jpg" class="img-fluid" alt="" width="325" height="325">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <p class="fst">
-              Hi, my name is Fanjia! I am rising junior studying Computer Science and Applied Mathematics at the University of California, Berkeley.
-              My academic interest lies within computer graphics, and algorithmic design, blockchain security, and decentralized finance. You can 
-              find my resume here.
-            </p>
-            <p class="fst">
-              I was determined to be Mathematician upon entering the college. I was drawn by the elegance and succinctness of mathematical arguments
-              and theorems. While I immersed myself into an abstracted world of analysis and algebra. I also explored the application of abstracting 
-              thinking into real world. On my journey to computer science, I discovered fields of study such as Interactive Proof System from cryptography,
-              Virtual Reality in Computer Graphics, and Knowledge Assessment Algorithm from Human Computer Interaction. I fell attracted to the immense application
-              those technologies enable. With this in mind, I devote myself into research and software engineering to cast the theortical fascinations into the reality 
-              we interact with. 
-            </p>
-          </div>
+          function lcb_stop() {
+            document.getElementById('lcb_image').style.opacity = "0";
+          }
+          lcb_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://livecodebench.github.io/">
+          <span class="papertitle">LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code</span>
+        </a>
+        <br>
+		<a href="https://naman-ntc.github.io/">Naman Jain</a>,
+		<a href="https://kinghan.info/">King Han</a>,
+		<a href="https://minimario.github.io/">Alex Gu</a>,
+		<a href="https://wending.dev/"> Wen-Ding Li</a>,
+		<strong>Fanjia Yan</strong>,
+    <a href="https://tianjunz.github.io/">Tianjun Zhang</a>,
+    <a href="https://www.sidaw.xyz/">Sida Wang</a>,
+    <a href="https://people.csail.mit.edu/asolar/">Armando Solar-Lezama</a>
+    <a href="https://people.eecs.berkeley.edu/~ksen/?rnd=1718930272477">Koushik Sen</a>,
+    <a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>
+        <br>
+        <a href="https://livecodebench.github.io/">project page</a>
+        /
+        <a href="https://github.com/LiveCodeBench/LiveCodeBench">code</a>
+        /
+        <a href="https://arxiv.org/abs/2403.07974">arXiv</a>
+        <p></p>
+        <p>
+          LiveCodeBench collects problems from periodic contests platforms and uses them for constructing a holistic benchmark for evaluating Code LLMs across variety of code-related scenarios continuously over time.
+        </p>
+      </td>
+    </tr>
+	
+
+    <tr onmouseout="of_stop()" onmouseover="of_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='of_image'><video  width=100% muted autoplay loop>
+          <source src="images/blog_post_4_gorilla_open_function_calling.png" type="jpg">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/blog_post_4_gorilla_open_function_calling.png' width=100%>
         </div>
+        <script type="text/javascript">
+          function of_start() {
+            document.getElementById('of_image').style.opacity = "1";
+          }
 
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>University of California, Berkeley</h4>
-              <h5>Aug 2020 - June 2024</h5>
-              <p><em>Bachelor of Art in Computer Science and Applied Math</em></p>
-              <p>Coursework:
-                <ul>
-                  <li>Computer Science</li>
-                  <ul>
-                    <li>CS 61A: The Structure and Interpretation of Computer Programs</li>
-                    <li>CS 61BL: Data Structures and Programming</li>
-                    <li>CS 61C: Great Ideas of Computer Architecture (Machine Structures)</li>
-                    <li>CS 70: Discrete Mathematics and Probability Theory</li>
-                    <li>CS 170: Efficient Algorithms and Intractable Problems</li>
-                    <li>CS 172: Computability and Complexity</li>
-                    <li>CS 184: Foundations of Computer Graphics</li>
-                    <li>EECS 16B: Designing Information Devices and Systems II</li>
-                    <li>EECS 126: Probability and Random Processes</li>
-                  </ul>
-                  <li>Mathematics</li>
-                    <ul>
-                      <li>MATH 53: Multivariable Calculus</li>
-                      <li>MATH 54: Linear Algebra and Differential Equations</li>
-                      <li>MATH 104: Introduction to Analysis</li>
-                      <li>MATH 110: Linear Algebra</li>
-                      <li>MATH 128A: Numerical Analysis</li>
-                    </ul>
-                  <li>Miscellaneous</li>
-                    <ul>
-                      <li>ARGS 10A: Introduction to Greek Civilization </li>
-                      <li>AGRS 130L: Introduction to Greco-Roman Magic</li>
-                    </ul>
-                </ul>
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional & Research Experience</h3>
-            <div class="resume-item">
-              <h4>AQUEDUCT</h4>
-              <h5>May 2022 - Present</h5>
-              <p><em>Software Engineering Intern</em></p>
-              <ul>
-                <li></li>
-                <li> </li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>UC BERKELEY VERIFAI LAB </h4>
-              <h5>Jan 2022 - Present</h5>
-              <p><em>Undergraduate Researcher</em></p>
-              <ul>
-                <li>Research topic: Automatic Curriculum Design to Elevate Humans' Tactical Abilities in VR</li>
-                <li>Generated probabilistic simulations with Scenic programming language to train test subjects with procedural content</li>
-                <li>Devised Greedy Algorithm to assess knowledge boundary and dynamically predict performance on specific skillsets</li>
-                <li>Reconstructed virtual reality game in C# and Unity3D with Autodesk Maya capable of networking 10+ VR headsets</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>PING AN GOOD DOCTOR</h4>
-              <h5>Nov 2020 - Jan 2021</h5>
-              <p><em>Software Engineering Intern</em></p>
-              <ul>
-                <li>Deployed auto-filling and filtering algorithm to the user database which improved the daily query runtime on patient information by 15%</li>
-                <li>Compiled raw data into excel to fulfill the statistical request from marketing and legal departments</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Skills Section ======= -->
-       <section id="skills" class="skills section-bg">
-        <div class="container">
-  
-          <div class="section-title">
-            <h2>Skills</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-          </div>
-  
-          <div class="row skills-content">
-  
-            <div class="col-lg-6" data-aos="fade-up">
-  
-              <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-              <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-              <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-            </div>
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-  
-              <div class="progress">
-                <span class="skill">PHP <i class="val">80%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-              <div class="progress">
-                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-              <div class="progress">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-  
-            </div>
-  
-          </div>
-  
-        </div>
-      </section><!-- End Skills Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Here are some projects I have done in class or as a side project</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Graphics</li>
-              <li data-filter=".filter-card">Game</li>
-              <li data-filter=".filter-web">Engineering</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpeg" class="img-fluid" alt="" style="width:500px;height:300px;">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Rasterization"><i class="bx bx-plus"></i></a>
-                <a href="https://cal-cs184-student.github.io/sp22-project-webpages-Fanjia-Yan/proj1/index.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpeg" class="img-fluid" alt="" style="width:500px;height:300px;">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bazier Curve"><i class="bx bx-plus"></i></a>
-                <a href="https://cal-cs184-student.github.io/sp22-project-webpages-Fanjia-Yan/proj2/index.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="" style="width:500px;height:300px;">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="PathTracer"><i class="bx bx-plus"></i></a>
-                <a href="https://cal-cs184-student.github.io/sp22-project-webpages-Fanjia-Yan/proj3-1/index.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.png" class="img-fluid" alt="" style="width:500px;height:300px;">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cloth Sim"><i class="bx bx-plus"></i></a>
-                <a href="https://cal-cs184-student.github.io/sp22-project-webpages-Fanjia-Yan/proj4/index.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt="" style="width:500px;height:300px;">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Build your own world"><i class="bx bx-plus"></i></a>
-                <a href="https://www.youtube.com/watch?v=lhHHaj0cTLU&t=81s" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.png" class="img-fluid" alt="" style="width:500px;height:300px;">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="CPU"><i class="bx bx-plus"></i></a>
-                <a href="https://inst.eecs.berkeley.edu/~cs61c/fa21/projects/proj3/" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>fanjiayan at berkeley dot edu</p>
-              </div>
-            </div>
-
-          </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+          function of_stop() {
+            document.getElementById('of_image').style.opacity = "0";
+          }
+          of_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://gorilla.cs.berkeley.edu/blogs/7_open_functions_v2.html">
+          <span class="papertitle">Openfunctions</span>
+        </a>
+        <br>
+        <a href="https://charliejcj.github.io/">Charlie Cheng-Jie Ji</a>*,
+				<a href="https://huanzhimao.com/">Huanzhi Mao</a>*,
+        <strong>Fanjia Yan</strong>*,
+				<a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>,
+				<a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph E. Gonzalez</a>,
+        <a href="https://shishirpatil.github.io/">Shishir G. Patil</a>
+				<a href="https://tianjunz.github.io/">Tianjun Zhang</a>,
+        <br>
+        <br>
+        <a href="https://gorilla.cs.berkeley.edu/blogs/7_open_functions_v2.html">project page</a>
+        /
+        <a href="https://huggingface.co/gorilla-llm/gorilla-openfunctions-v2">Huggingface page</a>
+        <p></p>
+        <p>
+          A SOTA open source generally purpose function calling model. 
+        </p>
+      </td>
+    </tr>            
+  </body>
 </html>
