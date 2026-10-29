@@ -21,13 +21,10 @@
                 <p class="name" style="text-align: center;">
                   Fanjia Yan
                 </p>
-                <p>I'm a M.S. student at <a href="https://eecs.berkeley.edu">Berkeley EECS</a>, where I focus on Language Model Agents and <a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html"> Tool usage </a>.
-                </p>
-                <p>
-                   I did my undergraduate degree at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>. I have previously or currently interned at <a href="https://www.nvidia.com/en-us/self-driving-cars/in-vehicle-computing/">Nvidia</a>, Amazon, and <a href="https://runllm.com/">Aqueduct</a>. 
-                </p>
+                <p>I'm an <strong>Applied Scientist at Amazon AGI</strong>, where I work on <strong>agentic post-training</strong> for language models. I am a core contributor to <strong><a href="https://aws.amazon.com/blogs/aws/introducing-amazon-nova-2-lite-a-fast-cost-effective-reasoning-model/">Nova 2 Lite</a></strong>, working on agentic reinforcement learning, tool-use training data, and agent evaluations.</p>
+                <p>I received my <strong>M.S. in Electrical Engineering and Computer Science</strong> and my undergraduate degrees in Computer Science and Applied Mathematics from <a href="https://eecs.berkeley.edu/">UC Berkeley</a>, where I worked on Language Model Agents and <a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html">Tool usage</a>. I have previously interned at Cohere, <a href="https://www.nvidia.com/en-us/self-driving-cars/in-vehicle-computing/">Nvidia</a>, Amazon, and <a href="https://runllm.com/">Aqueduct</a>.</p>
                 <p style="text-align:center">
-                  <a href="fanjiayan@berkeley,edu">Email</a> &nbsp;/&nbsp;
+                  <a href="mailto:fanjiayan@berkeley.edu">Email</a> &nbsp;/&nbsp;
                   <a href="metadata/Fanjia_Resume.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=-L3PKoQAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://twitter.com/fanjia_yan">Twitter</a> &nbsp;/&nbsp;
@@ -39,6 +36,11 @@
               </td>
             </tr>
           </tbody></table>
+          <div class="section-tabs" role="tablist" aria-label="Page sections">
+            <button id="research-tab" class="section-tab" role="tab" aria-selected="true" aria-controls="research-panel" type="button">Research</button>
+            <button id="resume-tab" class="section-tab" role="tab" aria-selected="false" aria-controls="resume-panel" tabindex="-1" type="button">Resume</button>
+          </div>
+          <section id="research-panel" role="tabpanel" aria-labelledby="research-tab">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
@@ -51,47 +53,29 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-    <tr onmouseout="bfcl_stop()" onmouseover="bfcl_start()">
+    <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='bfcl.gif'><video  width=100% muted autoplay loop>
-          <source src="images/bfcl.gif" type="gif">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/bfcl.png' width=100%>
-        </div>
-        <script type="text/javascript">
-          function bfcl_start() {
-            document.getElementById('bfcl.gif').style.opacity = "1";
-          }
-
-          function bfcl_stop() {
-            document.getElementById('bfcl.gif').style.opacity = "0";
-          }
-          bfcl_stop()
-        </script>
+        <img src="images/bfcl.png" width="100%" alt="Berkeley Function Calling Leaderboard">
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html">
-          <span class="papertitle">Berkeley Function Calling Leaderboard
-</span>
+        <a href="https://proceedings.mlr.press/v267/patil25a.html">
+          <span class="papertitle">The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models</span>
         </a>
         <br>
-				<strong>Fanjia Yan</strong>*,
-				<a href="https://huanzhimao.com/">Huanzhi Mao</a>*,
-				<a href="https://charliejcj.github.io/">Charlie Cheng-Jie Ji</a>*,
-				<a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>,
-				<a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph E. Gonzalez</a>,
-				<a href="https://tianjunz.github.io/">Tianjun Zhang</a>,
-				<a href="https://shishirpatil.github.io/">Shishir G. Patil</a>
+        <a href="https://shishirpatil.github.io/">Shishir G. Patil</a>,
+        <a href="https://huanzhimao.com/">Huanzhi Mao</a>,
+        <strong>Fanjia Yan</strong>,
+        <a href="https://charliejcj.github.io/">Charlie Cheng-Jie Ji</a>,
+        Vishnu Suresh,
+        <a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>,
+        <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph E. Gonzalez</a>
         <br>
-        <a href="https://creiser.github.io/binary_opacity_grid/">project page</a>
-        /
-        <a href="https://github.com/ShishirPatil/gorilla">github page</a>
-        <p></p>
-        <p>
-          The first comprehensive evaluation on the LLM's ability to call functions and tools
-        </p>
+        <em>ICML 2025</em>
+        <br>
+        <a href="https://proceedings.mlr.press/v267/patil25a.html">paper</a> /
+        <a href="https://gorilla.cs.berkeley.edu/leaderboard.html">leaderboard</a> /
+        <a href="https://github.com/ShishirPatil/gorilla">code</a>
+        <p>A benchmark for evaluating function calling and agentic capabilities of language models.</p>
       </td>
     </tr>
 
@@ -130,6 +114,8 @@
     <a href="https://people.csail.mit.edu/asolar/">Armando Solar-Lezama</a>
     <a href="https://people.eecs.berkeley.edu/~ksen/?rnd=1718930272477">Koushik Sen</a>,
     <a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>
+        <br>
+        <em>ICLR 2025</em>
         <br>
         <a href="https://livecodebench.github.io/">project page</a>
         /
@@ -189,7 +175,46 @@
     </tr>   
     </tbody>
     </table>
-    
+          </section>
+          <section id="resume-panel" class="resume-panel" role="tabpanel" aria-labelledby="resume-tab" hidden>
+            <p><a href="metadata/Fanjia_Resume.pdf">Open or download the resume</a></p>
+            <iframe title="Fanjia Yan's resume" data-src="metadata/Fanjia_Resume.pdf" class="resume-viewer"></iframe>
+          </section>
+        </td>
+      </tr>
+    </tbody></table>
+    <script>
+      const tabs = Array.from(document.querySelectorAll('.section-tab'));
+      function selectTab(tab, focus) {
+        tabs.forEach(function (item) {
+          const active = item === tab;
+          item.setAttribute('aria-selected', String(active));
+          item.tabIndex = active ? 0 : -1;
+          document.getElementById(item.getAttribute('aria-controls')).hidden = !active;
+        });
+        if (tab.id === 'resume-tab') {
+          const viewer = document.querySelector('.resume-viewer');
+          if (!viewer.src) viewer.src = viewer.dataset.src;
+        }
+        if (focus) tab.focus();
+      }
+      tabs.forEach(function (tab, index) {
+        tab.addEventListener('click', function () { selectTab(tab, false); });
+        tab.addEventListener('keydown', function (event) {
+          let next;
+          if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+          else if (event.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
+          else if (event.key === 'Home') next = 0;
+          else if (event.key === 'End') next = tabs.length - 1;
+          else return;
+          event.preventDefault();
+          selectTab(tabs[next], true);
+        });
+      });
+    </script>
     <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=n&d=LMdMYtJOrTUbXngyobqWsuEmhxGW7ENg6yxU8I-6fqQ&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353"></script>
+    <!-- Cloudflare Web Analytics -->
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "eddbeb99046f4694a2cfced75511d651"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </body>
 </html>
